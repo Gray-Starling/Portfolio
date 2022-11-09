@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export const HomeComponent = () => {
-  return (
-    <div>HomeComponent</div>
-  )
+export function HomeComponent() {
+  return <div>HomeComponent</div>;
 }

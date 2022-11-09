@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --bg-header-color: #000;
   --bg-color: #000;
   --btn-border-color: #fff;
@@ -16,7 +16,7 @@ html[data-theme="dark"] {
   --scroll-color: #fff;
 }
 
-html[data-theme="light"] {
+html[data-theme='light'] {
   --bg-header-color: #fff;
   --bg-color: #fff;
   --btn-border-color: #000;
@@ -29,8 +29,8 @@ html[data-theme="light"] {
 
 :root {
   // Шрифты
-  --font-family-m: "Montserrat", sans-serif;
-  --font-family-o: "Open Sans", sans-serif;
+  --font-family-m: 'Montserrat', sans-serif;
+  --font-family-o: 'Open Sans', sans-serif;
 
   // Разметка
   --global-max-width: 1280px;

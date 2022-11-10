@@ -1,1 +1,14 @@
 @import-normalize;
+@import './assets/scss/base.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: var(--font-family-m);
+  font-size: var(--txt-size-global);
+  color: var(--txt-color-main);
+}

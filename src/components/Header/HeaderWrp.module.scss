@@ -1,0 +1,48 @@
+@import '../../assets/scss/vars.scss';
+
+.headerWrp {
+  display: flex;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+  padding: 0 30px;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: var(--header-bg-color);
+}
+
+.gitHub {
+  &Link {
+    &,
+    &:visited,
+    &:active {
+      color: inherit;
+    }
+  }
+  &Logo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: inherit;
+
+    &:hover {
+      transform: var(--header-scale);
+    }
+  }
+}
+
+.header {
+  &LogoBlock {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &Nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
